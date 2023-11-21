@@ -1,6 +1,9 @@
 
-/* here we set default font size to 14px */
-.splash-section {
+/* here we set default font size to 14px 
+ NOTE: this will probably change, just trying to set up a basic 
+ framwork ie: wireframe*/
+ 
+ .splash-section {
     font-size: 14px;
     font-family: Playfair Display;
 }
@@ -9,6 +12,6 @@
 here we set h1 font size based on the relative 
 size already determined in .splash-section */
 
-.splash-section h1 {
+.splash-section para {
     font-size: 1.5em;
 }
