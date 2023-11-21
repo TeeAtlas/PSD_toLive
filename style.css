@@ -1,0 +1,14 @@
+
+/* here we set default font size to 14px */
+.splash-section {
+    font-size: 14px;
+    font-family: Playfair Display;
+}
+
+/* suject to change
+here we set h1 font size based on the relative 
+size already determined in .splash-section */
+
+.splash-section h1 {
+    font-size: 1.5em;
+}
