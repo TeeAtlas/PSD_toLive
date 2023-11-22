@@ -14,6 +14,13 @@ body {
 }
 
 
+/* Header Styles Christina*/
+
+
+
+
+
+/* Second part sect1 logo + our story + button Christina*/
 
 
 
@@ -21,8 +28,7 @@ body {
 
 
 
-
-
+/* third part : link to video and h3 Tania */
 .story-section,
 .story-section__left,
 .story-section__right {
@@ -39,10 +45,46 @@ body {
     text-decoration:  none;   
 }
 
-.story-section img {
-    width: 100px;
-}
 
 
 
 
+
+
+/* fourth part : our expertise with the grid system Tania */
+
+
+
+
+
+
+
+/* fifth part : our teams with flex Christina */
+
+
+
+
+
+
+
+/* Sixth part : form and logos Tania */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Christina */
