@@ -137,7 +137,7 @@ header {
     justify-content: center;
     font-weight: bold;
     text-align: center;
-    background-image: url('youtube.svg');
+    background-image: url(/images/bgk-middle.png);
     background-size: cover;
 }
 
@@ -151,6 +151,7 @@ header {
 
 .story h3 {
     margin-top: 10px;
+    color: #ffff;
 }
 
 
