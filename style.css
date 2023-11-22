@@ -4,12 +4,43 @@
 
  html {
     font-size: 16px;
-    font-family: 'Roboto', 'light';
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
+    font-weight: lighter;
     background-color: white;
 
+}
+
+
+
+
+
+
+
+
+
+
+
+.story-section,
+.story-section__left,
+.story-section__right {
+    border: 2px solid #52c3c0;
+    height: 550px;
+    width: 1600px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.story-section a {
+    text-decoration:  none;   
+}
+
+.story-section img {
+    width: 100px;
 }
 
 
