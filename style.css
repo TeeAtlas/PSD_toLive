@@ -14,7 +14,11 @@ body {
 
 
 /* Header Styles Christina*/
-
+.header {
+    background-image: url(/images/bgk-header.png);
+    width: 100%;
+    
+}
 
 
 
