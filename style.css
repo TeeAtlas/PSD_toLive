@@ -10,6 +10,9 @@
 body {
     font-weight: lighter;
     background-color: white;
+    width: 1600px;
+    margin: auto;
+    min-height: 100vh;
 
 }
 
@@ -29,20 +32,30 @@ body {
 
 
 /* third part : link to video and h3 Tania */
-.story-section,
-.story-section__left,
-.story-section__right {
-    border: 2px solid #52c3c0;
+.story {
     height: 550px;
     width: 1600px;
     margin: auto;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-weight: bold;
+    text-align: center;
+    background-image: url('youtube.svg');
+    background-size: cover;
 }
 
-.story-section a {
-    text-decoration:  none;   
+.story a {
+    text-decoration: none;
+}
+
+.story img {
+    width: 100px; 
+}
+
+.story h3 {
+    margin-top: 10px;
 }
 
 
