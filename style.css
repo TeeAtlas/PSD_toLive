@@ -2,9 +2,8 @@
 /* here we set default font size to 14px 
  NOTE: this will probably change, just trying to set up a basic 
  framwork ie: wireframe*/
- p {
-    font-size: 14px;
-    font-family: "Playfair Display";
+ html {
+    font-family: 'Roboto', 'light';
 }
 
 /* suject to change
