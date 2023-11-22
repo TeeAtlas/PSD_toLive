@@ -4,20 +4,44 @@
 
  html {
     font-size: 16px;
-    font-family: 'Roboto', 'light';
+    /* font-family: 'Roboto', 'light'; */
 }
 
 body {
-    background-color: white;
-
+    margin: 0;
+    padding: 0;
 }
 
 
 /* Header Styles Christina*/
-.header {
+header {
     background-image: url(/images/bgk-header.png);
-    width: 100%;
-    
+}
+
+.top__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.logo1left {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.logo1left p {
+    font-family: 'Roboto', 'light';
+    font-size: 1.7rem;
+    font-weight: 100;
+    letter-spacing: -0.1rem;
+    color: #1d7b8a;
+}
+
+.img__left {
+    width: 2rem;
+    height: 2rem;
 }
 
 
