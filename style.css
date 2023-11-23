@@ -90,7 +90,7 @@ header {
     color: white;
 }
 
-hr {
+.hr__header {
     margin-top: -0.5rem;
     width: 3%;
     border: 1px solid #1d7b8a;
@@ -242,7 +242,103 @@ br {
 
 /* fifth part : our teams with flex Christina */
 
+.meet-team {
+    background-image: url(/images/bgk-header.png);
+    background-size: cover;
+    min-height: 600px;
+}
 
+.meet-team__h3 {
+    font-family: 'PlayfairDisplay', 'black';
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    padding-top: 5rem;
+    margin-bottom: 0;
+}
+
+.meet-team__para {
+    font-family: 'roboto', 'light';
+    font-size: 0.77rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.hr__teams {
+    margin-top: 1rem;
+    width: 3%;
+    border: 1px solid #656565;
+}
+
+.flex-cont2 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem;
+    gap: 1rem;
+}
+
+.flexcont2-item {
+    width: 10%;
+    height: 20%;
+    border: 1px solid white;
+
+}
+
+.imgteam {
+    width: 100%;
+    height: 80%;
+    padding: 0;
+}
+
+.flexcont2-item h4 {
+    font-family: "roboto", "light";
+    font-size: 0.75rem;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+    margin-bottom: 0.3rem;
+}
+
+.flexcont2-item p {
+    font-family: "roboto", "light";
+    font-size: 0.60rem;
+    text-align: center;
+    color: rgb(130, 128, 128);
+    margin-top: 0;
+    letter-spacing: -0.02rem;
+}
+
+.flex-cont3 {
+    display: flex;
+    flex-direction: column;    align-items: center;
+    align-content: center;
+}
+
+.teams-para {
+    font-family: "roboto", "light";
+    color: white;
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+.teams-button {
+    background-color: transparent;
+    color: #3cc3d8;
+    border: 1.5px #3cc3d8 solid;
+    padding: 0.5rem 1rem;
+    font-family: "roboto", "black";
+    font-size: 0.8rem;
+    font-weight: 800;
+    cursor: pointer;
+    width: 7.2%;
+    margin-top: 1rem;
+    text-align: center;
+
+}
 
 
 
