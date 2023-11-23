@@ -208,14 +208,13 @@ br {
 /* section expert syling -  Tania */
 
 .expert_div {
-    /* min-height: 753px; */
+    min-height: 753px;
     width: 1600px;
     margin: auto;
-    /* flex-direction: column;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 71px;
-    padding-bottom: 71px; */
+    padding-top: 60px;
     text-align: center;
 }
 
@@ -235,43 +234,37 @@ br {
 
 /* horizontal rule styling */
 hr {
-    margin-top: 1.5em;
+    padding-top: -.5;
     width: 3%;
-    border: 1px solid black;    
+    border: .25px solid black;    
 }
 
 /* expert icon container */
 
 .icon_container {
-    display: flex;
-    flex-direction: column;
-    margin-top: 50px;
-    background-color: #ddd;
-}
-
-.row_top,
-.row_bottom {
-    display: flex;
-    justify-content: space-between;
-
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    margin: 0 auto;
+    background-color: gray
+    justify-content: center;
+    max-width: 250px;
 }
 
 .icon_container > div {
-    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* box-sizing: content-box; */
     margin: 0;
     background-color: #ffff;
     padding: 0;
+    width: 320px;
+    height: 250px;
 }
 
-.row_top > div.web,
-.row_top > div.brand,
-.row_top > div.mobile,
-.row_bottom > div.search,
-.row_bottom > div.game,
-.row_bottom > div.made {
-    height: 250px;
-    width: 320px;
-}
+
 /* fifth part : our teams with flex Christina */
 
 .meet-team {
