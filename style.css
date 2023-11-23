@@ -155,15 +155,37 @@ header {
 }
 
 
-
-
-
-
-
 /* fourth part : our expertise with the grid system Tania */
 
+.expert {
+    height: 753px;
+    width: 1600px;
+    margin: auto;
+    align-items: center;
+    padding-top: 71px;
+    padding-bottom: 71px;
+    text-align: center;
+}
 
+.expert h2 {
+    color: black;
+    font-family: 'PlayfairDisplay', 'black';
+    font-size: 22px;
+    margin-bottom: .5em;
+}
 
+.expert .title_1 {
+    color: black;
+    font-family: 'PlayfairDisplay', sans-serif;
+    font-size: 14px;
+
+}
+
+.expert img {
+    height: 1px;
+    width: 40;
+    color: black;
+}
 
 
 
