@@ -244,13 +244,19 @@ hr {
 
 .icon_container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
+    /* justify-content: space-between; */
     margin-top: 50px;
     margin-right: 5rem;
     margin-left: 5rem;
     background-color: #ddd;
-    padding: 0px;
+}
+
+.row_top,
+.row_bottom {
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .icon_container > div {
