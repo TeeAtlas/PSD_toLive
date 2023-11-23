@@ -208,14 +208,14 @@ br {
 /* section expert syling -  Tania */
 
 .expert_div {
-    min-height: 753px;
+    /* min-height: 753px; */
     width: 1600px;
     margin: auto;
-    flex-direction: column;
+    /* flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-top: 71px;
-    padding-bottom: 71px;
+    padding-bottom: 71px; */
     text-align: center;
 }
 
@@ -245,10 +245,7 @@ hr {
 .icon_container {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     margin-top: 50px;
-    margin-right: 5rem;
-    margin-left: 5rem;
     background-color: #ddd;
 }
 
@@ -261,18 +258,19 @@ hr {
 
 .icon_container > div {
     box-sizing: border-box;
-    /* width: cacl(50% - 2px); */
     margin: 0;
     background-color: #ffff;
     padding: 0;
 }
 
-.icon_container > div > web {
+.row_top > div.web,
+.row_top > div.brand,
+.row_top > div.mobile,
+.row_bottom > div.search,
+.row_bottom > div.game,
+.row_bottom > div.made {
     height: 250px;
     width: 320px;
-    display: block;
-    margin-right: 1px;
-    margin-bottom: 1px;
 }
 /* fifth part : our teams with flex Christina */
 
