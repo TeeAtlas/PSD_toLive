@@ -246,7 +246,7 @@ hr {
     grid-template-columns: repeat(3, 1fr);
     gap: 1px;
     margin: 0 auto;
-    background-color: gray
+    background-color: gray;
     justify-content: center;
     max-width: 250px;
 }
