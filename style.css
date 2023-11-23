@@ -209,7 +209,7 @@ br {
 
 .expert_div {
     min-height: 753px;
-    width: 1600px;
+    /* width: 1600px; */
     margin: auto;
     flex-direction: column;
     justify-content: center;
@@ -243,7 +243,7 @@ hr {
 
 .icon_container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: auto auto auto;
     gap: 1px;
     margin: 0 auto;
     background-color: gray;
@@ -574,4 +574,21 @@ flex-basis: 33%;
 
 .copyright {
     color: white;
+}
+
+/* PUT IT HERE */
+
+@media only screen and (max-width: 768px) {
+    /* For table: */
+    .icon_container {
+        grid-template-columns: auto auto;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    /* For phone: */
+    .icon_container {
+        grid-template-columns: auto;
+    }
 }
