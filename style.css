@@ -207,7 +207,7 @@ br {
 
 /* fourth part : our expertise  Tania */
 
-.expert {
+.expert_div {
     height: 753px;
     width: 1600px;
     margin: auto;
@@ -237,7 +237,13 @@ br {
     color: black;
 }
 
+/* expert icon container */
 
+.icon_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
 
 /* fifth part : our teams with flex Christina */
