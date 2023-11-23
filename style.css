@@ -124,22 +124,22 @@ header {
     align-items: center;
     align-content: center;
     justify-content: center;
-    min-height: 30vh;
     padding: 3rem;
     gap: 5rem;
     margin-left: 10rem;
+
 }
 
 .flex-item1 {
-    width: 10%;
-    height: 20%;
+    max-width: 200px;
+    min-height: 100px;
 }
 
 .flex-item2 {  
     margin-left: 0.5rem; 
     display: flex;
     flex-direction: column;
-    width: 35%;
+    max-width: 500px;
 }
 
 .flex-item2__h2 {
@@ -162,6 +162,7 @@ br {
 } 
 
 .flex-item2__button {
+    margin-top: 0.7rem;
     background-color: transparent;
     color: #3cc3d8;
     border: 1.5px #3cc3d8 solid;
@@ -170,7 +171,7 @@ br {
     font-size: 0.8rem;
     font-weight: 800;
     cursor: pointer;
-    width: 22%;
+    max-width: 120px;
 }
 
 
@@ -307,10 +308,9 @@ hr {
 }
 
 .flexcont2-item {
-    width: 10%;
-    height: 20%;
+    max-width: 200px;
+    min-height: 280px;
     border: 1px solid white;
-
 }
 
 .imgteam {
@@ -359,10 +359,9 @@ hr {
     font-size: 0.8rem;
     font-weight: 800;
     cursor: pointer;
-    width: 7.2%;
     margin-top: 1rem;
     text-align: center;
-
+    margin-bottom: 5rem;
 }
 
 
