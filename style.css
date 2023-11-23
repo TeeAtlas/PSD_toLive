@@ -3,25 +3,20 @@
 /* Universal Styles */
 
  html {
-    font-size: 16px;
     font-family: 'Roboto', sans-serif;
 }
 
 body {
-    font-weight: lighter;
-    background-color: white;
-    width: 1600px;
-    margin: auto;
-    min-height: 100vh;
-
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
 
 /* Header Styles Christina*/
 header {
     background-image: url(/images/bgk-header.png);
-    width: auto;
-    height: 600px;
+    background-size: cover;
+    min-height: 600px;
 }
 
 .top__nav {
@@ -85,6 +80,7 @@ header {
     justify-content: center;
     gap: 0.5rem;
     margin-top: 5rem;
+    font-family: "Hamersmith One", "regular";
 }
 
 .header__h1 {
@@ -96,16 +92,17 @@ header {
 
 hr {
     margin-top: -0.5rem;
-    width: 4%;
+    width: 3%;
     border: 1px solid #1d7b8a;
 }
 
 .header__para {
     font-family: "roboto", "light";
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     color: white;
-    width: 60%;
+    width: 35%;
     line-height: 160%;
+    text-align: center;
 }
 
 .header__button {
@@ -122,17 +119,67 @@ hr {
 
 
 /* Second part sect1 logo + our story + button Christina*/
+.flex-cont1 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    min-height: 30vh;
+    padding: 3rem;
+    gap: 5rem;
+    margin-left: 10rem;
+}
 
+.flex-item1 {
+    width: 10%;
+    height: 20%;
+}
 
+.flex-item2 {  
+    margin-left: 0.5rem; 
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
 
+.flex-item2__h2 {
+    font-family: 'PlayfairDisplay', 'bold';
+    font-size: 1.2rem;
+    letter-spacing: -0.5px;
+}
+
+.flex-item2__para {
+    font-family: "roboto", "light";
+    font-size: 0.7rem;
+    color: black;
+    width: 80%;
+    line-height: 160%;
+}
+
+br { 
+    display: block; 
+    margin-bottom: 2em; 
+} 
+
+.flex-item2__button {
+    background-color: transparent;
+    color: #3cc3d8;
+    border: 1.5px #3cc3d8 solid;
+    padding: 0.5rem 1rem;
+    font-family: "roboto", "black";
+    font-size: 0.8rem;
+    font-weight: 800;
+    cursor: pointer;
+    width: 22%;
+}
 
 
 
 
 /* third part : link to video and h3 Tania */
 .story {
-    height: 550px;
-    width: 1600px;
+    height: 50vh;
+    width: 100%;
     margin: auto;
     display: flex;
     flex-direction: column;
