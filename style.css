@@ -390,3 +390,188 @@ hr {
 
 
 /* Footer Christina */
+
+footer {
+    background-image: url(/images/bgk-footer.png);
+    background-size: cover;
+}
+
+.flexfooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flexfooter1 {
+flex-basis: 33%;
+}
+
+.logofooter{
+    display: flex;
+}
+
+.logoimgfoot {
+    width: 2rem;
+    height: 2.3rem;
+}
+
+.logofooter p {
+    margin-left: 0.5rem;
+    margin-top: 0;
+    font-family: 'Roboto', 'light';
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: #1d7b8a;
+}
+
+.flexfooter__para {
+    font-size: 0.76rem;
+    color: white;
+    line-height: 1.15rem;
+}
+
+
+.flexfooter2 {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    flex-basis: 33%
+}
+
+.flexfooter2h4 {
+    font-family: 'Roboto', 'black';
+    color: white;
+    font-size: 0.85rem;
+}
+
+.adress__para {
+    font-size: 0.76rem;
+    color: white;
+    line-height: 1.15rem;
+    width: 80%;
+    margin: 0;
+}
+
+.flexaddress {
+    display: flex;
+    margin-top: 0.75rem;
+}
+
+.imgdot {
+    margin-right: 0.5rem;
+}
+
+.flextele {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+}
+.imgphone{
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+}
+.telephone {
+    font-size: 0.76rem;
+    color: white;
+    line-height: 1.15rem;
+    width: 50%;
+}
+
+.flexfooter3 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 33%
+}
+
+.footer3h3 {
+    font-family: 'Roboto', 'black';
+    color: white;
+    margin-bottom: 0;
+    font-size: 0.85rem;
+}
+
+.footerform {
+    display: flex;
+    gap: 0.5rem;
+}
+
+#contact {
+    width: 61%;
+    font-size: 0.76rem;
+    padding: 0.5rem;
+    background-color: transparent;
+    border: 1px solid rgb(228, 221, 221);
+    color: white;
+}
+
+#contact::placeholder {
+    font-family: "roboto", "light";
+    color: rgb(228, 221, 221);
+}
+
+.buttonarrow {
+    margin-left: 0;
+    margin-bottom: 0;
+    width: 3rem;
+    border-radius: 0%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.275)
+}
+
+.buttonarrow img {
+    width: 1rem;
+    height: 1rem;
+}
+
+.mediaicons {
+    display: flex;
+    gap: 0.37rem;
+    margin-top: 0;
+}
+
+.mediaicons img {
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+
+
+
+.footersection2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.listfooter {
+    display: flex;
+    list-style-type: none;
+}
+
+.listfooter a {
+    text-decoration: none;
+    color: white;
+    font-family: "roboto", "regular";
+    padding: 2rem;
+}
+
+.listfooter a:visited {
+    color: grey;
+}
+
+.listfooter a:hover {
+    text-decoration: underline;
+}
+
+.listfooter a:active {
+    color: #1d7b8a;
+}
+
+.copyright {
+    color: white;
+}
