@@ -120,6 +120,7 @@ header {
 
 /* Second part sect1 logo + our story + button Christina*/
 .flex-cont1 {
+    min-height: 600px;
     display: flex;
     align-items: center;
     align-content: center;
@@ -406,8 +407,8 @@ hr {
     display: flex;
     justify-content: center;
     align-content: center;
-    gap: 2rem;
-    padding: 3rem;
+    gap: 4rem;
+    padding: 5rem;
 }
 
 .form {
@@ -769,6 +770,20 @@ flex-basis: 33%;
     .web {
         padding: 1rem;
     }
+
+    .flexfooter, .footersection2 {
+        flex-direction: column;
+
+  }
+
+  .listfooter a {
+       padding: 1rem;
+       font-size: 0.5rem;
+  }
+
+  .copyright {
+       font-size: 0.5rem;
+  }
 
 
     /* .flexfooter, .navbar__right, .flex-cont1 {
