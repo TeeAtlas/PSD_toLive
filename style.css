@@ -424,9 +424,10 @@ hr {
     gap: 1rem;
 }
 
-.zara {
-    width: 90px;
-    height: 10px;
+
+.imgb {
+    width: 60x;
+    height: 20px;
 }
 
 .submit {
@@ -771,15 +772,37 @@ flex-basis: 33%;
         padding: 1rem;
     }
 
+
+    .brandsnews {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .brands h2 {
+        margin-bottom: 2rem;
+        margin-top: 0;
+    }
+
     .flexfooter, .footersection2 {
         flex-direction: column;
 
   }
 
+
+    .flexfooter2, .flexfooter3 {
+        padding-left: 0;
+    }
+
+
   .listfooter a {
        padding: 1rem;
        font-size: 0.5rem;
   }
+
+    .listfooter {
+        padding-left: 0;
+    }
+
 
   .copyright {
        font-size: 0.5rem;
