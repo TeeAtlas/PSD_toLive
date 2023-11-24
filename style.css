@@ -267,7 +267,7 @@ hr {
 .web {
     border-right: 1px rgba(116, 116, 116, 0.565) solid;
     border-bottom: 1px rgba(116, 116, 116, 0.565) solid;
-    padding: 1rem;
+    padding:;
 }
 
 .brand {
@@ -281,6 +281,10 @@ hr {
 
 .search {
     border-right: 1px rgba(116, 116, 116, 0.565) solid;
+}
+
+.game {
+    padding: 20px;
 }
 
 .made {
