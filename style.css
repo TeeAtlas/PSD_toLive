@@ -582,6 +582,12 @@ flex-basis: 33%;
     .icon_container {
         grid-template-columns: auto auto;
     }
+    .flexfooter {
+        flex-direction: column;
+    }
+    .flexfooter1, .flexfooter2, .flexfooter3 {
+        width: 100%;
+    }
 }
 
 
@@ -589,5 +595,12 @@ flex-basis: 33%;
     /* For phone: */
     .icon_container {
         grid-template-columns: auto;
+    }
+
+    .flexfooter {
+        flex-direction: column;
+    }
+    .flexfooter1, .flexfooter2, .flexfooter3 {
+        width: 100%;
     }
 }
