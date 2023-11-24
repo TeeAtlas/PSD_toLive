@@ -760,7 +760,7 @@ flex-basis: 33%;
 }
 
 .form_logos .grid2 {
-    grid-template-columns: 1fr;
+    grid-template-columns: auto auto;
 }
 
 .form_logos .imgb {
