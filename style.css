@@ -500,7 +500,7 @@ flex-basis: 33%;
 }
 
 #contact {
-    width: 61%;
+    width: 156px;
     font-size: 0.76rem;
     padding: 0.5rem;
     background-color: transparent;
@@ -519,7 +519,7 @@ flex-basis: 33%;
     width: 3rem;
     border-radius: 0%;
     border: none;
-    background-color: rgba(255, 255, 255, 0.275)
+    background-color: rgba(249, 244, 244, 0.416)
 }
 
 .buttonarrow img {
@@ -530,7 +530,6 @@ flex-basis: 33%;
 .mediaicons {
     display: flex;
     gap: 0.37rem;
-    margin-top: 0;
 }
 
 .mediaicons img {
