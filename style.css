@@ -665,6 +665,13 @@ flex-basis: 33%;
         border: 0;
     }
 
+    .flex2__hpara {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
     .web {
         border-right: 1px rgba(116, 116, 116, 0.565) solid;
     }
