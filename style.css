@@ -179,7 +179,7 @@ br {
 
 /* third part : link to video and h3 Tania */
 .story {
-    height: 50vh;
+    min-height: 600px;
     width: 100%;
     margin: auto;
     display: flex;
