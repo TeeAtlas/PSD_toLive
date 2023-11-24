@@ -749,7 +749,28 @@ flex-basis: 33%;
    .copyright {
         font-size: 0.5rem;
    }
+   .form_logos .brandsnews {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+}
 
+.form_logos .form {
+    width: 100%;
+}
+
+.form_logos .grid2 {
+    grid-template-columns: 1fr;
+}
+
+.form_logos .imgb {
+    width: 30px;
+    height: 10px;
+}
+
+.form_logos .submit {
+    width: 100px;
+}
 }
 
 
