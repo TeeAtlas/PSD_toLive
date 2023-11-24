@@ -776,6 +776,16 @@ flex-basis: 33%;
 
 @media only screen and (max-width: 600px) {
     /* For phone: */
+
+    .flex-item2__para{
+        text-align: center;
+    }
+    .flex-item2__button{
+        margin-left: 5rem;
+    }
+
+
+
     .icon_container {
         grid-template-columns: auto;
     }
@@ -792,6 +802,7 @@ flex-basis: 33%;
     .web {
         padding: 1rem;
     }
+
 
 
     .brandsnews {
