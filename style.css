@@ -236,8 +236,8 @@ br {
 /* horizontal rule styling */
 hr {
     padding-top: -.5;
-    width: 3%;
-    border: .25px solid rgba(116, 116, 116, 0.565);    
+    width: 40px;
+    border: 0.05px solid rgba(116, 116, 116, 0.565);    
 }
 
 /* expert icon container */
@@ -708,7 +708,6 @@ flex-basis: 33%;
     .made {
         border: none;
     }
-    
     .web {
         padding: 1rem;
     }
