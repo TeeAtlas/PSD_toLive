@@ -402,7 +402,13 @@ hr {
 
 
 /* Sixth part : form and logos Tania */
-
+.form_logos {
+    /* background-image: url(/images/bgk-middle.png); */
+    display: grid
+    grid-template-columns: auto auto;
+    background-size: cover;
+    min-height: 600px;
+}
 .brandsnews {
     display: flex;
     justify-content: center;
