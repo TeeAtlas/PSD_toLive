@@ -14,7 +14,7 @@ body {
 
 /* Header Styles Christina*/
 header {
-    background-image: url(/images/bgk-header.png);
+    background-image: url(images/bgk-header.png);
     background-size: cover;
     min-height: 600px;
 }
@@ -189,7 +189,7 @@ br {
     justify-content: center;
     font-weight: bold;
     text-align: center;
-    background-image: url(/images/bgk-middle.png);
+    background-image: url(images/bgk-middle.png);
     background-size: cover;
 }
 
@@ -302,7 +302,7 @@ hr {
 /* fifth part : our teams with flex Christina */
 
 .meet-team {
-    background-image: url(/images/bgk-header.png);
+    background-image: url(images/bgk-header.png);
     background-size: cover;
     min-height: 600px;
 }
@@ -481,7 +481,7 @@ hr {
 /* Footer Christina */
 
 footer {
-    background-image: url(/images/bgk-footer.png);
+    background-image: url(images/bgk-footer.png);
     background-size: cover;
 }
 
