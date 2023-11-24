@@ -237,7 +237,7 @@ br {
 hr {
     padding-top: -.5;
     width: 3%;
-    border: .25px solid black;    
+    border: .25px solid rgba(116, 116, 116, 0.565);    
 }
 
 /* expert icon container */
@@ -245,7 +245,7 @@ hr {
 .icon_container {
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 1px;
+    /* gap: 1px; */
     margin: 0 auto;
     background-color: gray;
     justify-content: center;
@@ -263,6 +263,28 @@ hr {
     padding: 0;
     width: 320px;
     height: 250px;
+}
+
+.web {
+    border-right: 1px rgba(116, 116, 116, 0.565) solid;
+    border-bottom: 1px rgba(116, 116, 116, 0.565) solid;
+}
+
+.brand {
+    border-bottom: 1px rgba(116, 116, 116, 0.565) solid;
+}
+
+.mobile {
+    border-left: 1px rgba(116, 116, 116, 0.565) solid;
+    border-bottom: 1px rgba(116, 116, 116, 0.565) solid;
+}
+
+.search {
+    border-right: 1px rgba(116, 116, 116, 0.565) solid;
+}
+
+.made {
+    border-left: 1px rgba(116, 116, 116, 0.565) solid;
 }
 
 
@@ -370,10 +392,60 @@ hr {
 
 /* Sixth part : form and logos Tania */
 
+.brandsnews {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 2rem;
+    padding: 3rem;
+}
 
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 1rem;
+}
 
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
 
+.zara {
+    width: 90px;
+    height: 10px;
+}
 
+.submit {
+    background-color: transparent;
+    color: #3cc3d8;
+    border: 1.5px #3cc3d8 solid;
+    padding: 0.5rem 1rem;
+    font-family: "roboto", "black";
+    font-size: 0.8rem;
+    font-weight: 800;
+    cursor: pointer;
+    margin-top: 1rem;
+    text-align: center;
+    margin-bottom: 5rem;
+    width: 80px;
+}
+
+.goodnews h2 {
+    color: black;
+    font-family: 'PlayfairDisplay', 'black';
+    font-size: 1.2rem;
+    margin-bottom: 0.5em;
+}
+
+.brands h2 {
+    color: black;
+    font-family: 'PlayfairDisplay', 'black';
+    font-size: 1.2rem;
+    margin-bottom: 0.5em;
+}
 
 
 
