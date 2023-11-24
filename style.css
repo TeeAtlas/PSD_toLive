@@ -245,9 +245,7 @@ hr {
 .icon_container {
     display: grid;
     grid-template-columns: auto auto auto;
-    /* gap: 1px; */
     margin: 0 auto;
-    /* background-color: gray; */
     justify-content: center;
     max-width: 250px;
     padding-top: 25px;
@@ -652,14 +650,37 @@ flex-basis: 33%;
 
 @media only screen and (max-width: 768px) {
     /* For tablet: */
-    .icon_container {
+    .icon_container{
         grid-template-columns: auto auto;
         border: 0;
     }
 
-    .web, .brand, .mobile, .search, .made {
-        border: 0;
+    .web {
+        border-right: 1px rgba(116, 116, 116, 0.565) solid;
     }
+
+    .mobile {
+        border-bottom: 1px rgba(116, 116, 116, 0.565) solid;
+        border-top: 1px rgba(116, 116, 116, 0.565) solid;
+        border-right:  1px rgba(116, 116, 116, 0.565) solid;
+        border-left:  none;
+    }
+    
+    .search {
+        border-top: 1px rgba(116, 116, 116, 0.565) solid;
+        border-bottom: 1px rgba(116, 116, 116, 0.565) solid;
+        border-right: none;
+        border-left: none;
+    }
+
+    .game {
+        border-right: 1px rgba(116, 116, 116, 0.565) solid;
+    }
+
+    .made {
+        border: none;
+    }
+
     /* .flexfooter, .navbar__right, .flex-cont1 {
         flex-direction: column;
     }
@@ -678,9 +699,21 @@ flex-basis: 33%;
         grid-template-columns: auto;
     }
 
-    .web, .brand, .mobile, .search, .made {
-        border: 0;
+    .web, .brand, .mobile, .game,.search{
+        border-bottom: 1px rgba(116, 116, 116, 0.565) solid;
+        border-left: none;
+        border-right: none;
     }
+    
+    .made {
+        border: none;
+    }
+    
+    .web {
+        padding: 1rem;
+    }
+
+
     /* .flexfooter, .navbar__right, .flex-cont1 {
         flex-direction: column;
     }
