@@ -264,6 +264,12 @@ hr {
     height: 250px;
 }
 
+.icon_container > div > p{
+    width: 200px;
+    height: 2.5rem;
+    padding-bottom: 1.5rem;
+}
+
 .web {
     border-right: 1px rgba(116, 116, 116, 0.565) solid;
     border-bottom: 1px rgba(116, 116, 116, 0.565) solid;
