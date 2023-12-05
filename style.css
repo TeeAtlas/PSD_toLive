@@ -404,8 +404,9 @@ hr {
 /* Sixth part : form and logos Tania */
 .form_logos {
     /* background-image: url(/images/bgk-middle.png); */
-    display: grid
+    display: grid;
     grid-template-columns: auto auto;
+    gap: 5rem;
     background-size: cover;
     min-height: 600px;
 }
